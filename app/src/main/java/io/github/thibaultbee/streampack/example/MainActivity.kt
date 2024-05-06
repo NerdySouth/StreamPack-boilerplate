@@ -117,7 +117,7 @@ class MainActivity : AppCompatActivity() {
                         /**
                          * For SRT, use srt://my.server.url:9998?streamid=myStreamId&passphrase=myPassphrase
                          */
-                        streamer.startStream("rtmp://my.server.url:1234/app/streamKey")
+                        streamer.startStream("rtmp://100.107.234.59:1935/live/test")
                     } catch (e: Exception) {
                         binding.liveButton.isChecked = false
                         Log.e(TAG, "Failed to connect", e)
